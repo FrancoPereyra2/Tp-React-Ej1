@@ -1,12 +1,12 @@
-import './App.css'
+import React from 'react';
 
-function App() {
-
+const App = ({ name }) => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div>
+      <h1>Hola Mundo</h1>
+    </div>
+  );
+};
 
-export default App
+
+export default App;
